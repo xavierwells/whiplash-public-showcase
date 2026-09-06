@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">High-level Whiplash engine flow</title>
+  <desc id="desc">Full-mix audio flows through song identity and musical mapping into studio comparison or live cue-control outputs.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6f7779"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="440" fill="#0d1012"/>
+  <text x="56" y="54" fill="#efb366" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">ONE ENGINE / TWO PRODUCT PATHS</text>
+  <text x="56" y="94" fill="#f5f2ea" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">From ordinary audio to musician-useful context</text>
+
+  <g stroke="#6f7779" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M 249 216 H 309"/>
+    <path d="M 551 216 H 611"/>
+    <path d="M 853 216 H 913"/>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <g transform="translate(56 157)">
+      <rect width="193" height="118" rx="16" fill="#171b1e" stroke="#363d40"/>
+      <text x="22" y="38" fill="#f5f2ea" font-size="18" font-weight="700">Full-mix audio</text>
+      <text x="22" y="72" fill="#a7aba7" font-size="14">Studio recordings</text>
+      <text x="22" y="95" fill="#a7aba7" font-size="14">or live stereo feed</text>
+    </g>
+    <g transform="translate(309 157)">
+      <rect width="242" height="118" rx="16" fill="#171b1e" stroke="#363d40"/>
+      <text x="22" y="38" fill="#f5f2ea" font-size="18" font-weight="700">Song identity</text>
+      <text x="22" y="72" fill="#a7aba7" font-size="14">Same, different,</text>
+      <text x="22" y="95" fill="#a7aba7" font-size="14">or explicitly uncertain</text>
+    </g>
+    <g transform="translate(611 157)">
+      <rect width="242" height="118" rx="16" fill="#171b1e" stroke="#363d40"/>
+      <text x="22" y="38" fill="#f5f2ea" font-size="18" font-weight="700">Musical mapping</text>
+      <text x="22" y="72" fill="#a7aba7" font-size="14">Tempo, position, structure,</text>
+      <text x="22" y="95" fill="#a7aba7" font-size="14">and localized differences</text>
+    </g>
+    <g transform="translate(913 143)">
+      <rect width="231" height="146" rx="16" fill="#1b2d23" stroke="#92d6a4"/>
+      <text x="22" y="38" fill="#92d6a4" font-size="18" font-weight="700">Useful outputs</text>
+      <text x="22" y="76" fill="#c8c7c2" font-size="14">Studio A/B review</text>
+      <text x="22" y="101" fill="#c8c7c2" font-size="14">Live position confidence</text>
+      <text x="22" y="126" fill="#c8c7c2" font-size="14">Preprogrammed cue control</text>
+    </g>
+  </g>
+
+  <text x="56" y="352" fill="#f5f2ea" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">The monitor path stays untouched.</text>
+  <text x="56" y="382" fill="#a7aba7" font-family="Segoe UI, Arial, sans-serif" font-size="15">Live analysis listens to a parallel mixer feed; musicians continue hearing the direct console mix.</text>
+</svg>
